@@ -11,7 +11,7 @@ public class LocalizationData : ScriptableObject, ISerializationCallbackReceiver
         new LocalizationItem(LocalizationItemType.about_button,"About"),
         new LocalizationItem(LocalizationItemType.quit_button,"Quit"),
         new LocalizationItem(LocalizationItemType.back_button,"Back"),
-        new LocalizationItem(LocalizationItemType.about_text,"Get ready to solve some picture puzzles! Get stuck? Use hints! Earn coins by completing tasks or watching short videos! Have fun!"),
+        new LocalizationItem(LocalizationItemType.about_text,"Get ready to solve some picture puzzles! Get stuck? Use hints! Earn coins by completing tasks or claim from EDU Chain! Have fun!"),
         new LocalizationItem(LocalizationItemType.locked_text,"locked"),
         new LocalizationItem(LocalizationItemType.reveal_one_letter,"Reveal one letter"),
         new LocalizationItem(LocalizationItemType.remove_excess,"Remove excess"),

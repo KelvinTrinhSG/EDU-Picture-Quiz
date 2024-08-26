@@ -17,7 +17,7 @@ public class GameSettings : ScriptableObject //Root ScriptableObject that repres
     public int defaultWinReward = 60;
     public int solveTaskCost = 200;
     [Min(0)]
-    public int startCoins = 1000;
+    public int startCoins = 0; //1000
     [Range(8, 30)]
     public int fullLettersCount = 16;
     public bool isThirdRowRequired = false;
@@ -105,7 +105,7 @@ public class GameSettings : ScriptableObject //Root ScriptableObject that repres
     public bool instaLoginGpGames = false;
     public int suggestToLoginToGPGamesAfterLevel = 10;
     public bool GDPRconsent = false;
-    public bool consentOnStart = true;
+    public bool consentOnStart = false;
     public bool gdprButton = true;
     public string policyLink = "https://my_privacy_page";
     public InAppProduct[] inAppProducts;

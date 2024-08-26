@@ -20,7 +20,7 @@ public class GameController : MonoBehaviour //Main class that handles and stores
 
     public int DefaultWinReward { get => GameSettings.defaultWinReward; }
     public int SolveTaskCost { get => GameSettings.solveTaskCost; }
-    public int StartCoins { get => GameSettings.startCoins; }
+    public int StartCoins { get => GameSettings.startCoins; set => GameSettings.startCoins = value; }
     public int FullLettersCount { get => GameSettings.fullLettersCount; }
     public bool IsThirdRowRequired { get => GameSettings.isThirdRowRequired; }
     public int AddSecondLineAfterXLetters { get => GameSettings.addSecondLineAfterXLetters; }

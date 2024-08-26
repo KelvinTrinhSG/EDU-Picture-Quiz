@@ -103,14 +103,14 @@ public class MainMenuManager : MonoBehaviour
             GdprConfirmPopup gdprConfirmPopup = GameController.Instance.popup.Open<GdprConfirmPopup>(ThemeColorEnum.Positive);
             if (langNotChosen)
             {
-                GameController.Instance.popup.EnqueuePopup<LanguagesPopup>(ThemeColorEnum.Normal);
+                //GameController.Instance.popup.EnqueuePopup<LanguagesPopup>(ThemeColorEnum.Normal);
             }
         }
         else
         {
             if (langNotChosen)
             {
-                GameController.Instance.popup.Open<LanguagesPopup>(ThemeColorEnum.Normal);
+                //GameController.Instance.popup.Open<LanguagesPopup>(ThemeColorEnum.Normal);
             }
         }
 #if GP_SAVES

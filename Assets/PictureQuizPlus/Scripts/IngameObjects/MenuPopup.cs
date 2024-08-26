@@ -49,7 +49,7 @@ public class MenuPopup : MonoBehaviour //Component class for menu popup
             debug.gameObject.SetActive(true);
             debug.gameObject.GetComponent<DebugButton>().Subscribe(1);
         }
-        settings.gameObject.SetActive(GameController.Instance.GDPRconsent || GameController.Instance.Localizations.Length > 1 || GameController.Instance.GooglePlaySaves);
+        settings.gameObject.SetActive(false);
 
         settings.onClick.AddListener(() =>
         {
