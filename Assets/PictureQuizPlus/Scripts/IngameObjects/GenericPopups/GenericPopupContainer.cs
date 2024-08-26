@@ -67,23 +67,23 @@ public class GenericPopupContainer : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
-        if (scrollRect.viewport.sizeDelta.y >= 820)
-        {
-            scrollViewGroup.childControlHeight = false;
-            scrollRect.viewport.sizeDelta = new Vector2(scrollRect.viewport.sizeDelta.x, 820);
-        }
-        else if (!scrollViewGroup.childControlHeight)
-        {
-            scrollViewGroup.childControlHeight = true;
-        }
-        if (!isActivated)
-        {
-            canvasGroup.alpha = 1;
-            isActivated = true;
-        }
-    }
+    //void Update()
+    //{
+    //    if (scrollRect.viewport.sizeDelta.y >= 820)
+    //    {
+    //        scrollViewGroup.childControlHeight = false;
+    //        scrollRect.viewport.sizeDelta = new Vector2(scrollRect.viewport.sizeDelta.x, 820);
+    //    }
+    //    else if (!scrollViewGroup.childControlHeight)
+    //    {
+    //        scrollViewGroup.childControlHeight = true;
+    //    }
+    //    if (!isActivated)
+    //    {
+    //        canvasGroup.alpha = 1;
+    //        isActivated = true;
+    //    }
+    //}
 
     internal void SetColor(ThemeColorEnum color)
     {
